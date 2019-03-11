@@ -1,0 +1,71 @@
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.card-group .card {
+  flex: none !important;
+}
+
+.card {
+  padding: 15px;
+  border: none !important;
+  display: -webkit-box !important;
+}
+
+.jumbotron {
+  background-color: #951b81 !important;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.season {
+  cursor: pointer;
+  color: blue;
+}
+
+.seasons {
+  width: 15%;
+}
+.description {
+  width: 70%;
+}
+
+.episodes {
+  width: 80%;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.title {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .description {
+    float: left;
+    width: 100%;
+  }
+
+  .season {
+    width: 30%;
+  }
+}
